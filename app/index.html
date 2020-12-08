@@ -1,0 +1,625 @@
+<!--Элемент DOCTYPE -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Кодировка -->
+        <meta charset="UTF-8">
+        <!--подключение кроссбраузерности -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--подключение стилей -->
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <!--подключение иконки сайта -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <!--Штрифты -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400, 500,700&display=swap&subset=cyrillic" rel="stylesheet"
+            rel="stylesheet">
+            <script type="text/javascript" src="js/main.js"></script>
+
+        <title>Волна | Интернет магазин стульев</title>
+    </head>
+    <body>
+        <!--Верхний блок с информацией-->
+        <header>
+            <div class="container">
+                <div class="logo header-logo">
+                    <a href="/">
+                        <img src="img/volna_logo.png" width="150"/>
+                    </a>
+                </div>
+                <div class="menu header-menu ">
+                    <nav>
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Новинки</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="personal_info personal_info-header">
+                    <p align="right">Звонок бесплатный</p>
+                    <h3 align="right">8 (800) 333-12-43</h3>
+                    <a href="#"><p align="right">Заказать звонок</p></a>
+                </div>
+            </div>
+        </header>
+        <!--Значки информации-->
+        <div class="box-content" style="display: flex;">
+            <div class="section-main_sidebar" style="width: 65%; height: 220px; padding: 22px 20px;">                
+                <ul style="text-align: center;">
+                    <li style="margin-bottom: 40px; margin-left: -230px; margin-top: -83px;"><a href="#" style="color:black; display: block; width: 100%;"><span style="width: 100%; display: block; margin-bottom: 10px; font-size: 14px;">Приём заказов</span><img src="img/gui_order_quote_icon_157087.png" width="50"></a></li>
+                    <li style="margin-bottom: 40px; margin-left: -230px;"><a href="#" style="color:black; display: block; width: 100%;"><span style="width: 100%; display: block; margin-bottom: 10px; font-size: 14px;">Мой кабинет</span><img src="img/input_tablet_16905.png"width="50"></a></li>
+                    <li style="margin-bottom: 40px; margin-left: -230px;"><a href="#" style="color:black; display: block; width: 100%;"><span style="width: 100%; display: block; margin-bottom: 10px; font-size: 14px;">Группа в Вконтакте</span><img src="img/coffee_vk_48776.png"width="50"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Слайдер-->
+        <section class="section section-main">
+            <div class="container_slider_css">
+                <h3 style="text-align: center;">
+                    Наши преимущества
+                </h3>
+                <img src="img/5.png">
+              </div>
+        </section>
+        <!--Поиск-->
+        <div class="search">
+            <div class="container">
+                <form>
+                    <input name="search" type="text" required placeholder="Поиск по каталогу"/>
+                    <button type="submit">
+                        <img src="img/baseline_search_black_18dp.png">
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="cart">
+            <span class="cart-info">Моя корзина</span>
+            <img src="img/cart-icon.png"/>
+            <span class="count">2</span>
+        </div>
+        <!--Блок категорий товаров-->
+        <section class="section section-products">
+            <div class="container">
+                <div class="section-title">
+                    Наш торговый повильон
+                </div>
+                <div class="flex-container">
+                    <div class="product-categories" style="width: 25%; margin-top: 40px;">
+                        <h3 style="font-size: 20px; color: gray;">
+                            Бренды
+                        </h3>
+                        <ul>
+                            <li style="margin-bottom: 7px; font-size: 18px; font-weight: 500;"><a href="#">Дизайнерские стулья</a></li>
+                        </ul>
+                        <ul>
+                            <li style="margin-bottom: 7px; font-size: 18px; font-weight: 500;"><a href="#">Кресла</a></li>
+                        </ul>
+                        <ul>
+                            <li style="margin-bottom: 7px; font-size: 18px; font-weight: 500;"><a href="#">Барные стулья</a></li>
+                        </ul>
+                    </div>
+                    <div class="products-list" style="width: 75%;">
+                        <div class="products-filter flex-container">
+                            <div class="cont">
+                                <input type="radio" id="everything" name="color" />
+                                    <label for="everything">Все</label>
+                                    <input type="radio" id="decorative" name="color"/>
+                                    <label for="decorative">Декоративные стулья</label>
+                                    <input type="radio" id="computer" name="color"/>
+                                    <label for="computer">Компьютерные стулья</label>
+                                    <input type="radio" id="bar" name="color"/>
+                                    <label for="bar">Барные стулья</label>
+
+                                    <div class="tile bar"><img src="img/3_1.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_2.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_3.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_4.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_5.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_6.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_7.jpg"></div>
+                                    <div class="tile bar"><img src="img/3_8.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_1.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_2.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_3.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_4.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_5.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_6.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_7.jpg"></div>
+                                    <div class="tile decorative"><img src="img/1_8.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_1.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_2.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_3.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_4.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_5.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_6.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_7.jpg"></div>
+                                    <div class="tile computer"><img src="img/2_8.jpg"></div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!--Слайдер для товаров-->
+                        <div class="slider">
+                            <div class="slider_wrapper">
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_1.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        2500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_2.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        1500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_3.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        4500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_4.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3548 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_5.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        2500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_6.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        2500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_7.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        2500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/1_8.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        7500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_1.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_2.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_3.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_4.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_5.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_6.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_7.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/2_8.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 200 мм, Высота:500 мм, Глубина 400 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        3500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_1.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_2.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_3.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_4.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_5.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_6.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_7.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                                <div class="slider_item">
+                                    <div class="slider_content_header">
+                                        <img class="slider_content_img" src="img/3_8.jpg" width="150">
+                                    </div>
+                                    <h2 class="slider_content_title">
+                                        Ширина: 530 мм, Высота:800 мм, Глубина 550 мм
+                                    </h2>
+                                    <span class="slider_content_views">
+                                        8500 рублей
+                                    </span>
+                                    <button class="pay">
+                                        <img src="img/button-pay.png">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>                
+                </div>
+            </div>
+        </section>
+        <!--Карта с координатами магазина и формой для подписки-->
+        <section class="section section-contact">
+            <div class="container">
+                <div class="section-title">
+                    Где нас найти?
+                </div>
+                <div class="section-contact_address">
+                    г. Казань, ТЦ "Hoff"
+                </div>
+                <div id="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae0b157ae994bf9447f1373ef679eab0dd665875ce5ef292216879ab41ed9f4f8&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <div class="section-contsct_form">
+                        <div class="form-title">
+                            Подписаться на наш магазин
+                        </div>
+                        <form style="background: darkslategray; padding: 40px 35px; margin-top: -23px;">
+                            <div class="form-group">
+                                <input name="name" type="text" placeholder="Ваше имя" required style="width: 100%; font-family: 'Montserrat'; padding: 15px 5px; background: transparent; border: 1px solid #fff; color: #fff;"/>
+                            </div>
+                            <div class="form-group">
+                                <input name="E-mail" type="email" placeholder="Ваш E-mail" required style="width: 100%; font-family: 'Montserrat'; padding: 15px 5px; background: transparent; border: 1px solid #fff; color: #fff;"/>
+                            </div>
+                            <div class="button btn-submit">
+                                <input type="submit" value="Подписаться" style="background-color: red; width:105%; border: 0; outline: none; padding: 10px 0; color: #fff; font-weight: 700; cursor: pointer;"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Блок футер-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="flex-container">
+                        <div class="footer-time">
+                            <div class="footer-time_title">
+                                Время работы магазина:
+                            </div>
+                            <div class="footer-time_schedule">
+                                Вторник - Воскресенье с <span style="font-weight: 700;">11:00</span> до <span style="font-weight: 700;">20:00</span>
+                            </div>
+                        </div>
+                        <div class="footer-subscribe">
+                            <span class="footer-subscribe_title">   
+                                Оставьте свой <span style="font-weight: 700;">email</span>, чтобы получать индивидуальные
+                                <span style="font-weight: 700;">скидки</span> и специальные <span style="font-weight: 700;">предложения</span>
+                            </span>
+                            <form style="  display: inline-block; border: 2px solid #fff; margin-left: 938px; margin-top: -52px; width: 20%;">
+                                <input name="email" type="email" placeholder="Ваш email" required style="font-family: 'Montserrat'; background-color: transparent; color: #fff; padding: 10px; outline: none; border: 0;"/>
+                                <input type="sumbit" value="Отправить" style="    font-weight: 700;cursor: pointer;width: 100%;text-align: center;"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menus">
+                    <div class="flex-container">
+                        <div class="footer-menus_item footer-social">
+                            <ul>
+                                <li style="margin-bottom: 10px;"><a href="#" style="width: 30px; height: 30px; background-color: #fff; border-radius: 50%; display: block; padding: 3px; position: relative; z-index: 2;">
+                                    <img src="img/vk.png">
+                                </a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="width: 30px; height: 30px; background-color: #fff; border-radius: 50%; display: block; padding: 3px; position: relative; z-index: 2;">
+                                    <img src="img/instagram.png">
+                                </a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="width: 30px; height: 30px; background-color: #fff; border-radius: 50%; display: block; padding: 3px; position: relative; z-index: 2;">
+                                    <img src="img/facebook.png">
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu_item">
+                            <div class="footer-menu_item_title">
+                                Best Chairs
+                            </div>
+                            <ul>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Бренды</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Новинки</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Контакты</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Отзывы</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Информация о консультантах</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Условия соглашения</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Возврат товара</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu_item">
+                            <div class="footer-menu_item_title">
+                                Преимущества
+                            </div>
+                            <ul>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Официальный дилер</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Только оригиналы</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Весь товар в наличии</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Официальная гарантия</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Бесплатная доставка</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Дисконтная программа</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#" style="color: grey; font-size: 13px;">Быстрый сервис</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menus_item footer-about">
+                            <div class="footer-menu_item_title">
+                                О нас
+                            </div>
+                            <p style="font-size: 14px; color: grey; line-height: 21px; margin-bottom: 40px;">
+                                Our online store welcomes you! Welcome! 
+                                Only we give the lowest prices for our products, and if you find it even cheaper, we will reduce the price even more.
+                                Our online store has been operating on the market for over 5 years and we have long established ourselves as a reliable and confident supplier of goods. Buying in our store, you will be always happy and happy to come back to us again.
+                                The presented assortment is the widest and we have everything you need.
+                                Our managers will always be happy to help you.
+                            </p>
+                            <a href="#" class="more-about-btn">
+                                Читать больше
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="flex-container">
+                        <div class="footer-logo">
+                            <img src="img/volna_logo.png" width="150"/>
+                        </div>
+                        <div class="footer-year">
+                            bw.by, inc 2020
+                        </div>
+                        <span>
+                            &copyВсе права защищены
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/стрелка вверх.jpg" height="50" width="50" onclick="window.scrollTo(0, 0);"
+                    style="position: fixed; bottom: 45px; margin-left: -110px;">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
